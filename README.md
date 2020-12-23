@@ -18,19 +18,13 @@
 
 O projeto consiste de uma aplicação de conversação do tipo chat construida com react, contendo um menu lateral com contatos e, na parte central restante o chat. Construido como desafio de seleção de vaga front-end da empresa Soulphia.
 
-<a id="documentacao"></a>
-
-## :books: Documentação
-
-Para reforçar alguns conceitos e registrar comandos que são dificeis de se lembrar eu fiz uma pequena **[DOCUMENTAÇÃO](DOCUMENTATION.md)** para ajudar quem esta iniciando com **Javascript**, **Node**, **ReactJS** e **React Native**. 
-
 <a id="tecnologias-utilizadas"></a>
 
-## :rocket: Tecnologias Utilizadas
+## :computer: Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [TypeScript](https://www.typescriptlang.org/)
+- [JavaScript](https://www.javascript.com/)
 - [ReactJS](https://reactjs.org/)
 
 <a id="como-usar"></a>
@@ -39,33 +33,24 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - ### **Pré-requisitos**
 
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
-  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
+  - É **necessário** possuir um gerenciador de pacotes como o **[NPM](https://www.npmjs.com/)** ou o **[Yarn](https://yarnpkg.com/)** instalados na máquina 
+  - Tambem é **necessário** possuir o **git** instalado na maquina.
 
 1. Faça um clone :
 
 ```sh
-  $ git clone https://github.com/vitorserrano/ecoleta.git
+  $ git clone https://github.com/jecAmorim/Conversation-ReactJS
 ```
 
 2. Executando a Aplicação:
 
 ```sh
   # Instale as dependências
-  $ npm install
-
-  # Inicie a API
-  $ cd server
-  $ npm run dev
+  $ yarn install
 
   # Inicie a aplicação web
-  $ cd web
-  $ npm start
+  $ yarn start
 
-  # Inicie a aplicação mobile
-  $ cd mobile
-  $ npm start
 ```
 
 <a id="como-contribuir"></a>
@@ -77,10 +62,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Commit suas mudanças: `git commit -m 'feat: My new feature'`
 - Push a sua branch: `git push origin my-feature`
 
-## :mortar_board: Quem ministrou?
-
-As aulas foram ministradas pelo mestre **[Diego Fernandes](https://github.com/diego3g)** nas aulas da **Next Level Week**.
-
 ## :memo: License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
@@ -88,5 +69,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 <h4 align="center">
-    Feito com 💜 by <a href="https://www.linkedin.com/in/vitor-serrano/" target="_blank">Vitor Serrano</a>
+    Feito com 💜 by <a href="https://github.com/jecAmorim" target="_blank">Jeciane Amorim</a>
 </h4>
