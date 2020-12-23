@@ -11,10 +11,10 @@
     border-radius: 4px;
 }
 
-#containerListItem div#profile{
+#containerListItem div#profile img{
     width: 49px;
     height: 49px;
-    background-color: #C4C4C4;
+    
     margin: 11px 33px 15px 33px;
 }
 

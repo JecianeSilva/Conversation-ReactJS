@@ -3,7 +3,6 @@ export const data = [
         id:1,
         name:"John Doe", 
         hour:"18:18", 
-        image: require("./assets/default-user-image.png"),
         messages: [
             {
                 type: "Rec",
@@ -26,7 +25,6 @@ export const data = [
         id:2,
         name:"Robert Jr", 
         hour:"22:18", 
-        image: require("./assets/default-user-image.png"),
         messages: [
             {
                 type: "Rec",
@@ -49,7 +47,6 @@ export const data = [
         id:3,
         name:"Maria Lima", 
         hour:"22:18", 
-        image: require("./assets/default-user-image.png"),
         messages: [
             {
                 type: "Rec",
@@ -72,7 +69,6 @@ export const data = [
         id:4,
         name:"John Reyes", 
         hour:"22:18", 
-        image: require("./assets/default-user-image.png"),
         messages: [
             {
                 type: "Rec",

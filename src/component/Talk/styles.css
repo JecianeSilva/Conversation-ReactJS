@@ -17,10 +17,9 @@
     align-items: center;
 }
 
-#containerTalk .containerHeader div#block{
+#containerTalk .containerHeader div#block img{
     width: 40px;
     height: 40px;
-    background-color: #C4C4C4;
     margin: 10px 10px 15px 10px;
 }
 
@@ -53,6 +52,20 @@
     text-decoration: none;
 
 }
+#containerTalk .containerConversation .conversationBackground{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerTalk .containerConversation .conversationBackground img{
+    width:50%;
+    max-width:50%;
+    height: auto;
+    padding: 0 10%;
+    margin-top: 10%;
+}
+
 
 #containerTalk  .sendMessage{
     height: 60px;

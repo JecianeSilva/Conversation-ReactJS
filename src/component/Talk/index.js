@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Messenger from '../Messenger';
+import img from '../../assets/default-user-image.png'
 
 import './styles.css';
 
@@ -11,7 +12,7 @@ export default function Talk({newMessage,chatSelected, messages, name}) {
         <div className="containerTalk" id="containerTalk">
             <div className="containerHeader">
                 <div id="block">
-                    
+                    <img src={img} alt="image profile" />
                 </div>
                 <p className="headerText">{name}</p>
             </div>
@@ -29,6 +30,11 @@ export default function Talk({newMessage,chatSelected, messages, name}) {
                         >
                         </Messenger>
                     ))
+                    }
+                    {!(messages.length>0)&& 
+                        <div className="conversationBackground">
+                            <img src="https://soulphia.com/wp-content/uploads/2020/09/Asset-2.png"  alt="logo"/>
+                       </div>
                     }
                     
                     

@@ -12,7 +12,7 @@
     background-color: var(--background-header-color);
 }
 
-#containerList .containerHeader div#block{
+#containerList .containerHeader div#block img{
     width: 40px;
     height: 40px;
     background-color: #C4C4C4;
