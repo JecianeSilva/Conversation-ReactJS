@@ -1,0 +1,45 @@
+#containerListItem{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+#containerListItem:hover{
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+#containerListItem div#profile{
+    width: 49px;
+    height: 49px;
+    background-color: #C4C4C4;
+    margin: 11px 33px 15px 33px;
+}
+
+#containerListItem .itemName{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--title-color)
+}
+
+#containerListItem .itemHour{
+
+    flex: 1;
+    margin-right: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: right;
+    color: var(--title-color);
+    opacity: 0.4;
+}
+
+.itens{
+    overflow-y:  auto;
+    -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,22 @@
+#root{
+    --background-chat-color: #F7F7F7;
+    --background-list-color: #FFFFFF;
+    --background-header-color: #EEEEEE;
+    --title-color: #000000;
+    --title-chat-color: #333333;
+    --subtitle-chat-color: #9A9A9A;
+    --link: #337AB7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }

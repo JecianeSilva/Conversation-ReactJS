@@ -1,0 +1,50 @@
+.containerMessage{
+    flex: 1;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+.message{
+    max-width: 60%;
+    padding: 10px 15px;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+.containerMessage.Rec{
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+.message.Rec{  
+    background: #FFFFFF;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.containerMessage.Send{
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+
+.message.Send{
+    background: #DCF8C6;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.message .messageText{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+
+    color: var(--title-chat-color);
+}
+.message .messageHour{
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: right;
+    color: var(--subtitle-chat-color);
+}
